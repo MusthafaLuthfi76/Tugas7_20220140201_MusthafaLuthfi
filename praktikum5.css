@@ -1,0 +1,59 @@
+body {
+    font-family: 'Port Lligat Slab', serif;
+    background-color: wheat;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+hr {
+    border: 1px solid #000;
+}
+.track {
+    font-style: italic;
+}
+video {
+    display: block;
+    margin: 0 auto;
+}
+.picture-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.picture-container img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+button.pre-order-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px; 
+    font-size: 18px; 
+    font-family: 'Port Lligat Slab', serif;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+button.pre-order-button:hover {
+    background-color: #45a049; 
+}
+.picture-container {
+    position: relative;
+}
+button.pre-order-button {
+    position: sticky;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+

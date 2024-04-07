@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="praktikum5.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Port+Lligat+Slab&display-swap" rel="stylesheet">
+</head>
+<meta charset="utf-8">
+<title>Praktikum5</title>
+</head>
+<body>
+<h1>NEW PS4 GAME GHOST OF TSUSHIMA</h1>
+<hr>
+<h2>GAME TRAILER</h2>
+<video id="video" controls width="1300" height="700" loop autoplay="auto">
+<source src="Ghost Of Tsushima.mkv" type="video/MP4">
+</video>
+<hr>
+<h2>Soundtrack</h2>
+<p class="track">Kanashi Uta (Fanmade) | Ghost of Tsushima</p>
+<audio id="audio" controls>
+<source src="Ghost of Tsushima.m4a" type="audio/mp3">
+</audio>
+<hr>
+<h2>Picture Gameplay</h2>
+<picture id="gambar">
+<source media="(max-width: 480px)" srcset="picture1.jpg"> <source media="(max-width: 900px)" srcset="EX02.jpg">
+<img src="picture1.jpg" style="width:640px; height:360px">
+<source media="(max-width: 480px)" srcset="picture2.jpg"> <source media="(max-width: 900px)" srcset="EX02.jpg">
+<img src="picture2.jpg" style="width:640px; height:360px">
+<source media="(max-width: 480px)" srcset="picture3.jpg"> <source media="(max-width: 900px)" srcset="EX02.jpg">
+<img src="picture3.jpg" style="width:640px; height:360px">
+<source media="(max-width: 480px)" srcset="picture4.jpg"> <source media="(max-width: 900px)" srcset="EX02.jpg">
+<img src="picture4.jpg" style="width:640px; height:360px">
+</picture>
+<button class="pre-order-button" onclick="preOrder()">Pre-Order Now</button>
+<script src="praktikum5.js"></script>
+</body>
+</html>
